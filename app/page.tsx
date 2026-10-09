@@ -25,18 +25,18 @@ export default function Home() {
       <Hero />
 
       {/* Brand & Collaboration Loop Banner */}
-      <section className="py-16 border-y border-pink-100/60 bg-gradient-to-r from-pink-50/40 via-white to-purple-50/40 overflow-hidden">
-        <div className="container mx-auto px-4 mb-8 text-center">
+      <section className="py-14 border-y border-pink-100/60 bg-gradient-to-r from-pink-50/40 via-white to-purple-50/40 overflow-hidden">
+        <div className="container mx-auto px-4 mb-6 text-center">
           <p className="text-xs uppercase tracking-widest font-bold text-gray-400">
             Brands, Teams & Communities I've Created With
           </p>
         </div>
-        <div className="max-w-7xl mx-auto px-4">
+        <div className="max-w-6xl mx-auto px-4">
           <LogoLoop
             logos={brandLogos}
             speed={30}
-            logoHeight={120}
-            gap={64}
+            logoHeight={90}
+            gap={56}
             fadeOut={true}
             scaleOnHover={true}
             pauseOnHover={true}
