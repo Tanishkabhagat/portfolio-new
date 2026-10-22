@@ -94,8 +94,8 @@ export default function ProjectGallery({ images, videos }: ProjectGalleryProps) 
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: index * 0.08 }}
-                  className={`group relative overflow-hidden rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 bg-gray-100 border border-pink-100/50 ${
-                    isFewImages ? "w-full aspect-[16/9] md:aspect-[21/9]" : "aspect-square"
+                  className={`group relative overflow-hidden rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 bg-gray-50 border border-pink-100/50 ${
+                    isFewImages ? "w-full aspect-[16/9] md:aspect-[21/9]" : "aspect-[4/5]"
                   }`}
                   onClick={() => !item.instagramUrl && setSelectedImage(item.imageSrc)}
                 >
